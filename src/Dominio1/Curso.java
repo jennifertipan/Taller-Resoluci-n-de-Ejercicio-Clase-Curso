@@ -23,6 +23,8 @@ public class Curso {
    }
    ///
     public void setPromedio(){
+        //el proceso modifica la nota del primer estudiante
+        //utilice una variable acumuladora
        double promedio=0;
        for(int i=1; i<12; i++){
            this.notas[0]=this.notas[0]+this.notas[i];
